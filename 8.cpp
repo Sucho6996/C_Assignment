@@ -1,3 +1,6 @@
+/*Write a program to input name, marks of 5 subjects of a student and display the name of the student, the
+total marks scored, percentage scored and the class of result*/
+
 #include <stdio.h>
 
 struct Student {
@@ -36,7 +39,7 @@ int main() {
     // Input student name
     printf("Enter student's name: ");
     scanf("%s", student.name);
-
+	
     // Input marks for 5 subjects
     for (int i = 0; i < 5; i++) {
         printf("Enter marks for subject %d: ", i + 1);
